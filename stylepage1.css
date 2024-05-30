@@ -1,0 +1,288 @@
+
+    body, html {
+      height: 100%;
+      font-family: Arial;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .bg-img {
+      /* ajouter l'image */
+      background-image: url("etud.jpg");
+    
+      min-height: 380px;
+    
+      /* Centrer et redimensionner  l'image */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /* Ajouter des styles au conteneur de formulaire */
+    .container {
+      position: absolute;
+      right: 20px;
+      margin: 20px;
+      max-width: 300px;
+      padding: 16px;
+      background-color: white;
+    }
+    
+    /* Champs de saisie  */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin-bottom:22px ;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    /* Définir le style pour le bouton d'envoi */
+    .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    p{
+      color: dimgray;
+      font-size: 18px;
+    }
+    h3{
+      color: black;
+      font-size: 20px;
+    }
+    a{
+      color: green;
+      font-size: 18px;
+    }
+    h2{
+      color:green;
+      font-size : 18px;
+    }
+    span{
+      color: dimgray;
+    }
+    .section1{
+      background-color: whitesmoke; color : dimgray; width:150px; 
+        height: auto; font-size:18px;
+        padding:20px;
+        margin:10px;
+    }
+    .section2{
+      background-color: whitesmoke; color:green; font-weight:bold;width: 150px;
+        padding:20px;
+        height: auto; font-size:18px;
+        margin: 10px; 
+    }
+    .section3{
+      background-color:whitesmoke; color:green; width: 150px;
+        padding:20px;
+        height: auto; font-size:18px;
+        margin: 10px;
+    }
+    .main{
+      display: flex;
+              flex: 1;
+              width: 70%;/* Ajuster les marges */
+              margin: 20px auto;
+          }
+          .content{
+            width: 80%;
+            padding: 20px;
+          }
+          .sectionsleft{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+          }
+          .sectionleft{
+            background-color: #f0f0f0;
+            width: 230px;
+            padding: 10px;
+            margin: 10px;
+          }
+          .containerlefright{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: 5px auto; /* centre le contenu horizontalement*/
+          }
+          .left, .right{
+            width: 60%;
+            padding: 5px;
+          }
+          .bouton-container{
+            margin: 20px;
+            width: 70%;
+            margin: 5px auto;/* centre le contenu horizontalement*/
+          }
+    .btn:hover {
+            opacity: 1;
+          }
+    .button-style {
+        background-color: green; /* Couleur de fond */ 
+        border: none; /* Pas de bordure */
+        color: white; /* Couleur du texte */
+        padding: 15px 32px; /* Espacement interne */ 
+        text-align: center; /* Alignement du texte */ 
+        text-decoration: none; /* Pas de soulignement */ 
+        display: inline-block; /* Type d'affichage */ 
+        font-size: 18px; /* Taille de police */
+        margin: 4px 2px; /* Marges externes */
+        cursor: pointer; /* Forme du curseur */
+        font-weight: bold; /* Applique le style gras */ }
+        .button-ceremony {
+          box-shadow: 0 10px 15px Ugreen; /* 0:effet, Ombre */
+          font-family: 'Times New Roman'; /* Typographie */
+        }
+        .containerMedia {
+          width: 80%;
+          margin: auto; /* Centre le contenu*/
+        }
+        .video-container {
+          display: flex;
+          justify-content: space-around; /* Espacement égal entre les vidéos */
+          align-items: center;
+          margin-top: 20px;
+        }
+        .video{
+          flex: 1;
+          margin: 10px;
+        }
+        iframe { /*Balise pour intégrer la vidéo YouTube, avec des attributs :*/
+          width: 100%;
+          height: 350px;
+        }
+        .containerceremony {
+          width: 70%;
+          margin: auto; /* Centre le contenu horizontalement */
+        }
+        .button-ceremony{
+           background-color: green; /* Couleur de fond du bouton */
+           color: Ewhite; /* Couleur du texte */
+           border: Spx solid black; /* Bordure dorée */
+           padding: 15px 40px; /* Espacement intérieur */
+           text-align: center; /* Alignement du texte */
+           font-size: 18px; /* Taille de la police */
+           font-weight: bold; /* Poids de la police */
+           margin: 10px 60px; /* Marges */
+           border-radius: 10px; /* 10:Coins arrondis */
+           box-shadow: 0 l0px 15px Ogreen; /* 0:effet, Ombre */
+           font-family: 'Times New Roman'; /* Typographie */
+        }
+        container _informations {
+          width: 80%;
+          margin: 2px auto; /* Centre le contenu*/
+          padding: З0pх;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse:rcollapse;/*bordures adjacentes des cellules*/
+        }
+        th{
+          text-align: left;
+        }
+        /*Table 2*/
+        caption{
+          caption-side: top;/*légende au dessus de tableau*/
+          font-size: 18px;
+          margin-bottom: 10px;/* espace entre le lignes*/
+          font-weight: bold;
+          text-align: center;
+          color: green;
+        }
+
+        /*table 3*/
+        .third-table{
+          border: 1px;
+          border-collapse: collapse;
+        }
+        .third-table tr:nth-child(even){
+          background-color: rgba(150, 212, 212, 0.4);
+        }
+        .third-table tr:nth-child(even), .third-table tr:nth-child(even){
+          background-color: rgba(150, 212, 212, 0.4);
+        }
+        /* element avec id myfooter */
+        #myfooter{
+          background-color: lightblue;
+          color: black;
+          padding: 40px;
+          text-align: center;
+        }
+        #myfooterJs{
+          font-size: 36px;
+          text-align: center;
+          margin-top: 50 px;
+          text-transform: uppercase;/*transforme en MAJ*/
+          letter-spacing: 2px;
+        }
+        #myfooterJs:hover{/*stule quand on passe sur myfooter*/
+          color: green;
+        }
+        #button-myfooter{
+           display: block;/*/* Afficher en tant que bloc pour occuper toute la largeur */
+           margin: 20px auto;
+           cursor: pointer;
+           background-color: lightblue; /* Couleur de fond du bouton*/
+           color: black; /* Couleur du texte */
+           border: 5px solid black; /* Bordure */
+           padding: 15px 40px; /* Espacement intérieur */
+           text-align: center; /* Alignement du texte */
+           font-size: 22px; /* Taille de la police */
+           font-weight: bold; /* Poids de la police */
+           font-family: 'Times New Roman'; /* Typographie */
+        }
+        
+        #button-myfooter:hover {
+          background-color: green;
+        }
+        /* Style pour l'iframe */
+        #Iframe_ENSIBS {
+          border: 2px solid #2c3e50;
+          border-radius: 5px;/* Coins arrondis */
+        }  
+          #Iframe ENSIBS a {
+            color:#2980b9;/* Couleur du texte des liens */
+            text-decoration: none;/* Supprime la décoration par défaut (soulignement)*/
+            font-weight: bold;/* Texte en gras*/
+          }
+          #Iframe_ENSIBS_a:hover {
+            text-decoration: underline;/*soulignée au survol*/
+          }
+            #button-myfooter-informations {
+              background-color: lightblue;/*Couleur de fond du bouton*/
+            }
+            #button-myfooter-information{
+              display: block;/*/* Afficher en tant que bloc pour occuper toute la largeur */
+              margin: 10px auto;
+              cursor: pointer;
+              background-color: lightblue; /* Couleur de fond du bouton*/
+              color: black; /* Couleur du texte */
+              border: 5px solid black; /* Bordure */
+              padding: 15px 40px; /* Espacement intérieur */
+              text-align: center; /* Alignement du texte */
+              font-size: 18px; /* Taille de la police */
+              font-weight: bold; /* Poids de la police */
+              font-family: 'Times New Roman'; /* Typographie */
+              border-radius: 10px;
+           }
+           
+           #button-myfooter-information:hover {
+             background-color: green;
+           }
